@@ -1,5 +1,5 @@
 import {bindBatchImport} from './import-dialog.js?v=20261120-return-library';
-import {BUNDLED_VIDEO_ID,fetchBundledVideo,selectStartupLesson} from './bundled-lessons.js';
+import {BUNDLED_VIDEO_ID,fetchBundledVideo,selectStartupLesson} from './bundled-lessons.js?v=20261120-easyenglish';
 import {formatTime,normalize,cloze,getVideoCaption,escapeHtml as esc} from './core.js';
 /** 查找页面中的单个界面元素。 */
 const $ = selector => document.querySelector(selector);
