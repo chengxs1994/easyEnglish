@@ -139,7 +139,7 @@ node --check server.mjs
 
 **微信号：`xsxsaiai`**
 
-<p><a href="docs/media/wechat-xsxsaiai.jpg"><img src="docs/media/wechat-xsxsaiai.jpg" alt="微信联系二维码，微信号 xsxsaiai" width="280"></a></p>
+<p><a href="docs/media/wechat-xsxsaiai-black.jpg"><img src="docs/media/wechat-xsxsaiai-black.jpg" alt="微信联系二维码，微信号 xsxsaiai" width="280"></a></p>
 
 点击二维码查看大图；手机可长按保存后，在微信中识别。
 
