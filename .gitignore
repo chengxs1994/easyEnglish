@@ -1,0 +1,23 @@
+# 只发布明确允许的源码，防止本机素材、服务器记录和试验产物进入历史。
+*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/package.json
+!/index.html
+!/style.css
+!/app.js
+!/core.js
+!/bundled-lessons.js
+!/batch-import.js
+!/import-dialog.js
+!/theme.js
+!/server.mjs
+!/start.command
+!/tests/
+/tests/*
+!/tests/*.test.js
+!/assets/
+/assets/*
+!/assets/icon.svg
+!/assets/example.srt

@@ -1,0 +1,18 @@
+{
+  "name": "easyenglish",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "description": "易英语：本地优先的英语精听、跟读与听写工具",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chengxs1994/easyEnglish.git"
+  }
+}
