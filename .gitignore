@@ -21,3 +21,11 @@
 /assets/*
 !/assets/icon.svg
 !/assets/example.srt
+
+# 仅公开 README 使用的原创界面截图和操作动图。
+!/docs/
+/docs/*
+!/docs/media/
+/docs/media/*
+!/docs/media/*.jpg
+!/docs/media/*.gif

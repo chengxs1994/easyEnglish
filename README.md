@@ -6,6 +6,45 @@
 
 Local-first English listening practice with bilingual subtitles, sentence replay, shadowing, dictation, and batch imports. No account or API key required. Your imported files and learning progress stay in your browser.
 
+## 操作演示
+
+演示使用项目自制的视频画面与原创字幕。手机画面来自 390 × 844 的浏览器视口。
+
+### PC：精听、挖空与听写
+
+![PC 操作动图：播放原音、切换英文与挖空、听写检查、主题切换和跟读入口](docs/media/desktop-demo.gif)
+
+### 手机：主题切换、收藏与跟读
+
+<p align="center"><img src="docs/media/mobile-demo.gif" alt="手机操作动图：切换主题、逐句精听、收藏复习、打开跟读和画面字幕" width="320"></p>
+
+## 界面截图
+
+### PC
+
+| 深色精听 | 浅色精听 |
+|---|---|
+| ![PC 深色精听界面](docs/media/desktop-dark.jpg) | ![PC 浅色精听界面](docs/media/desktop-light.jpg) |
+
+### 手机
+
+| 浅色 | 深色 |
+|---|---|
+| <img src="docs/media/mobile-light.jpg" alt="手机浅色精听界面" width="300"> | <img src="docs/media/mobile-dark.jpg" alt="手机深色精听界面" width="300"> |
+
+<details>
+<summary>更多截图：听写、跟读与批量导入</summary>
+
+| PC 听写检查 | PC 批量导入 |
+|---|---|
+| ![PC 整句听写与正确反馈](docs/media/desktop-dictation.jpg) | ![PC 视频字幕自动匹配清单](docs/media/import-desktop.jpg) |
+
+| 手机跟读 | 手机导入 |
+|---|---|
+| <img src="docs/media/mobile-shadowing.jpg" alt="手机跟读练习弹窗" width="300"> | <img src="docs/media/import-mobile.jpg" alt="手机批量导入弹窗" width="300"> |
+
+</details>
+
 ## 功能
 
 - **双语字幕与逐句播放**：点击字幕播放本句，支持倍速、AB 复读和句末暂停。
