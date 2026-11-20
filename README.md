@@ -133,6 +133,16 @@ node --check server.mjs
 
 历史版本内部使用的 `listening-room` 存储键保留，以兼容已有学习记录。
 
+## 联系与反馈
+
+使用反馈、功能建议，欢迎微信交流。添加时请备注「易英语」。
+
+**微信号：`xsxsaiai`**
+
+<p><a href="docs/media/wechat-xsxsaiai.jpg"><img src="docs/media/wechat-xsxsaiai.jpg" alt="微信联系二维码，微信号 xsxsaiai" width="280"></a></p>
+
+点击二维码查看大图；手机可长按保存后，在微信中识别。
+
 ## License
 
 [MIT](LICENSE) © 2026 chengxs1994
