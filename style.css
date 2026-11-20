@@ -247,3 +247,19 @@ select option { background: var(--surface); color: var(--ink); }
 
 /* 滚动长清单时遮住标题上方的内边距，避免内容透到固定标题前。 */
 #import-dialog .section-label { box-shadow: 0 -24px 0 var(--surface); }
+
+/* 联系区沿用当前主题，保留二维码原图，不增加外跳链接。 */
+.library-contact { margin: 20px 0 0; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--card); }
+.library-contact summary { min-height: 48px; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 14px; list-style: none; }
+.library-contact summary::-webkit-details-marker { display: none; }
+.library-contact summary::after { content: '+'; color: var(--muted); font-size: 20px; }
+.library-contact[open] summary::after { content: '−'; }
+.contact-account { margin-left: auto; color: var(--muted); font-size: 12px; }
+.library-contact-body { padding: 0 16px 16px; font-size: 14px; line-height: 1.8; color: var(--muted); }
+.library-contact-body img { display: block; width: 280px; max-width: 100%; height: auto; border-radius: 4px; margin: 16px auto; }
+.library-contact-body .wechat-light { display: none; }
+:root[data-theme="light"] .library-contact-body .wechat-dark { display: none; }
+:root[data-theme="light"] .library-contact-body .wechat-light { display: block; }
+.wechat-account { text-align: center; }
+.wechat-account strong { color: var(--ink); font-weight: 500; user-select: all; }
+@media (max-width: 360px) { .library-contact summary { flex-wrap: wrap; gap: 4px 8px; }.contact-account { font-size: 10px; } }

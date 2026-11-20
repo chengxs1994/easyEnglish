@@ -29,3 +29,7 @@
 /docs/media/*
 !/docs/media/*.jpg
 !/docs/media/*.gif
+
+# 学习站公开联系二维码，分别适配深浅主题。
+!/assets/wechat-black.jpg
+!/assets/wechat-white.jpg
