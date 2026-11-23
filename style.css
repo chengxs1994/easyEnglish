@@ -263,3 +263,11 @@ select option { background: var(--surface); color: var(--ink); }
 .wechat-account { text-align: center; }
 .wechat-account strong { color: var(--ink); font-weight: 500; user-select: all; }
 @media (max-width: 360px) { .library-contact summary { flex-wrap: wrap; gap: 4px 8px; }.contact-account { font-size: 10px; } }
+
+/* 常驻联系入口与主题切换并排，手机首屏可直接打开二维码。 */
+.header-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.contact-open { min-height: 44px; padding: 8px 12px; border-radius: 999px; background: var(--ink); color: var(--paper); border-color: var(--ink); font-size: 12px; white-space: nowrap; }
+.contact-open:hover { background: var(--primary-hover); color: var(--paper); }
+.library-contact-link { margin-top: 16px; min-height: 44px; }
+#contact-dialog .library-contact-body { padding: 0; text-align: center; }
+@media(max-width:600px) { .header-actions { gap: 8px; }.app-brand span { display: none; } }

@@ -188,6 +188,9 @@ $('#export').onclick=async()=>{await persist();const l=state.lesson;const text=l
 document.addEventListener('keydown',event=>{if(document.querySelector('dialog[open]')||event.ctrlKey||event.metaKey||event.altKey||event.target.closest('input,textarea,select,button,a,summary'))return;if(event.code==='Space'){event.preventDefault();$('#play').click();}if(event.key==='ArrowLeft'){event.preventDefault();playCue(state.active-1);}if(event.key==='ArrowRight'){event.preventDefault();playCue(state.active+1);}});
 $('#stage-play').onclick=()=>$('#play').click();
 $('#seek').oninput=()=>{if(!Number.isFinite(media.duration))return;state.segmentEnd=null;media.currentTime=Math.min(media.duration,Math.max(0,+$('#seek').value));refreshTimeline();updateActive();};
+// 顶部常驻入口直接打开联系方式，资料库入口复用同一个原生弹窗。
+$('#contact-open').onclick=()=>openSheet('contact-dialog');
+$('#library-contact-open').onclick=()=>{closeSheet('library-dialog');openSheet('contact-dialog');};
 $('#library-open').onclick=()=>openSheet('library-dialog');
 $('#directory-open').onclick=()=>openSheet('library-dialog');
 $('#practice-open').onclick=()=>openSheet('practice-dialog');
